@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      var data = {
+        type: "pointblank:default",
+        ingredients: [
+          { count: 17, item: "pointblank:gunmetal_ingot" },
+          { count: 6, item: "pointblank:guninternals" },
+          { count: 13, tag: "forge:ingots/iron" }
+        ],
+        result: {
+          item: "pointblank:anaconda"
+        }
+      };
+
+      for (var key in data.result) {
+        document.write("result of"+ key + ": " + data.result[key] + "<br>");
+      }
+    </script>
+  </body>
+</html>
